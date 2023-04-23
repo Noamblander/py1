@@ -1,0 +1,100 @@
+/* Logo styles */
+.logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  /* Header styles */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #555;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+  }
+  
+  /* Main content styles */
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0 0 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0 0 20px;
+  }
+  
+  .placeholder {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    margin: 20px;
+  }
+  
+  .placeholder.right {
+    float: right;
+    margin-bottom: 10px;
+  }
+  
+  .placeholder.left {
+    position: absolute;
+    left: 22%;
+
+  }
+  .adsplaceholders {
+    width: 100px;
+    height: 400px;
+    background-color: #eee;
+    margin: 20px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 1;
+  }
+  .adsplaceholders div{
+    background-color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
